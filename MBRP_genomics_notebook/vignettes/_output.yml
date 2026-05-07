@@ -7,7 +7,7 @@ bookdown::gitbook:
     toc:
       collapse: section
       before: |
-        <li><a href="https://www.uni-konstanz.de/zukunftskolleg/community/fellow-homepages/gisela-kopp/">Sociality & Evolution</a></li>
+        <li><a href="https://roiharel.github.io/MBRP/">MBRP</a></li>
    
     sharing:
       facebook: no
