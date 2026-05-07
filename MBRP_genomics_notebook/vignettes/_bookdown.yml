@@ -1,0 +1,8 @@
+book_filename: "Notebook - MBRP genomics"
+chapter_name: ""
+repo: https://github.com/GiselaHKopp/MBPR_genomics_notebook
+output_dir: ../docs
+rmd_files: ["index.Rmd", "0_develop.Rmd", "1_notes.Rmd", "2_data.Rmd", "3_analysis_popgenomics.Rmd", "4_analysis_pathogens.Rmd","Z_refs.Rmd"]
+clean: [packages.bib, bookdown.bbl]
+new_session: yes
+delete_merged_file: True
