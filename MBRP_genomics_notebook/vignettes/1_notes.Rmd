@@ -1,6 +1,8 @@
 ---
 title: "Project notes"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 editor_options:
   chunk_output_type: console
 ---
@@ -15,6 +17,13 @@ knitr::opts_knit$set(root.dir = '../')
 ```
 
 Here I note ideas and papers read or must read.
+
+## Meeting notes
+**06.05.2026**  
+*Maureen, Roi, Gisela*  
+
+* General discussion on state of sample organization  
+
 
 ## Reading (notes)
 
