@@ -1,5 +1,5 @@
 ---
-title: "Notebook - template"
+title: "MBRP Genomics Notebook"
 author: "Gisela H. Kopp"
 date: "`r Sys.Date()`"
 bibliography: book.bib
@@ -7,7 +7,7 @@ description: A diary-style notebook for this project
 documentclass: book
 editor_options:
   chunk_output_type: console
-github-repo: https://github.com/GiselaHKopp/Westbaboon_Notebook
+github-repo: https://github.com/GiselaHKopp/MBRP_genomics
 link-citations: yes
 subtitle: Project Notebook
 biblio-style: apalike
