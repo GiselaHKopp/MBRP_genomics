@@ -1,6 +1,10 @@
 ---
 title: "Project development"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
+  html_notebook: default
+  pdf_document: default
 ---
 
 # Project development
@@ -12,9 +16,97 @@ knitr::opts_chunk$set(echo = TRUE,
 knitr::opts_knit$set(root.dir = '../')
 ```
 
-Here I track and document the development of the project in a diary style. 
+Here we track and document the development of the project in a diary style. 
 
 ## General idea
-The general idea for this project is... 
+This project is part of a larger research effort within the Mpala Baboon Research Program, which is headed by Prof. Meg Crofoot and led by Dr. Roi Harel. 
+
+## Project overview
+
+### Work plan
+
+#### Behavioural data
+
+#### Sample Processing and Sequencing
+
+#### Sequencing data processing and analyses
+
+## Project metadata
+
+### Species
+* Barbary macaque (*Macaca sylvanus*)  
+* Ugandan red colobus (*Piliocolobus tephrosceles*)  
+* common noctule bat (*Nyctalus noctula*)  
+* Greater noctule bat (*Nyctalus lasiopterus*)
+
+### Location
+Samples are collected at Mpala Research Station, Laikipia, Kenya, within the baboon trapping and collaring efforts of the MBRP.
+
+  
+### Dates
+Samples were collected: 
+
+* 2024
+* 2025
+* 2026
+
+### People
+**Gisela H. Kopp**
+Research Scientist  
+Dept. Ecology of Animal Societies/MPI-AB and Zukunftskolleg/University of Konstanz  
+gisela.kopp@uni-konstanz.de  
+responsibilities: general project coordination and supervision for genomic workpackages, laboratory analysis and supervision of research assistant, data analysis, manuscript writing
+
+**Roi Harel**
+PI  
+Dept. Ecology of Animal Societies/MPI-AB 
+rharel@ab.mpg.de  
+responsibilities: overall project lead (incl. permits), supervision, behavioural data collection and analyses, manuscript writing  
+
+**Meg Crofoot**
+PI    
+Dept. Ecology of Animal Societies/MPI-AB  
+mcrofoot@ab.mpg.de  
+responsibilities: director of research program (incl. permits), manuscript writing
+
+**Maureen Kamau**
+Research Assistant   
+Mpala Research Center and Dept. Ecology of Animal Societies/MPI-AB  
+mkamau@ab.mpg.de  
+responsibilities: sample collection and organization, laboratory analysis, data analysis, manuscript writing
+
+**Daniel Zuniga**
+veterinary scientist  
+MPI-AB 
+dzuniga@ab.mpg.de  
+responsibilities: animal capture 
+
+**Matthew Snider**
+Postdoc  
+Mpala Research Center and Dept. Ecology of Animal Societies/MPI-AB
+msnider@ab.mpg.de
+responsibilities: field work coordination, animal capture, behavioural and demographic data  
+
+### Permits  
+:::beware
+Permit name, granting organization, permit number
+:::
+
+### Funding
+Project funding via MPG and ERC CoG Co-Sleep. 
+
+### Data storage
+Raw and processed data is stored on the EAS data server in the folder 'EAS_shared/baboon'. 
+
+## SOPs
+
+* SOP_I.01.vyyyymmdd_sample-processing
+* SOP_I.02.vyyyymmdd_DNA-extraction-blood_Qiagen
+* SOP_I.03.vyyyymmdd_DNA-extraction-hair_A_Qiagen
+* SOP_I.04.vyyyymmdd_DNA-extraction-hair_B_Qiagen
+* SOP_IV.01.vyyyymmdd_QubitAssay
+
+  
+
 
 ---
