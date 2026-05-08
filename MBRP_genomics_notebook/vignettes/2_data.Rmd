@@ -1,6 +1,8 @@
 ---
 title: "Data"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 editor_options:
   chunk_output_type: console
 ---
@@ -14,12 +16,18 @@ knitr::opts_chunk$set(echo = TRUE,
 knitr::opts_knit$set(root.dir = '../')
 ```
 
-Data compiled and used in this project
+Data compiled and used in this project. All datasheets are saved in csv format. 
 
-## Data collection
+## Sample collection
+Samples are collected during the trapping efforts of the MBRP. Each individual receives a unique ID, and during animal processing all relevant data are entered manually into a datasheet. These datasheets are scanned and information is put into the animal ID metadata file. During animal processing, biological samples are taken. These are sorted and organized at Mpala Research station and the respective information is put into the file 'MBPR_samples'.
+
+```{r}
+MBPR_samples <- read.csv("data/samples/MBRP_samples.csv", header = TRUE, sep = ",", as.is = TRUE)
+str(MBPR_samples)
+```
 
 
-## Data processing
+## Sample processing
 
 
 ---
