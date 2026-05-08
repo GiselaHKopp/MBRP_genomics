@@ -34,10 +34,7 @@ This project is part of a larger research effort within the Mpala Baboon Researc
 ## Project metadata
 
 ### Species
-* Barbary macaque (*Macaca sylvanus*)  
-* Ugandan red colobus (*Piliocolobus tephrosceles*)  
-* common noctule bat (*Nyctalus noctula*)  
-* Greater noctule bat (*Nyctalus lasiopterus*)
+* Olive baboon (*Papio anubis*)
 
 ### Location
 Samples are collected at Mpala Research Station, Laikipia, Kenya, within the baboon trapping and collaring efforts of the MBRP.
